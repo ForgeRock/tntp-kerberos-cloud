@@ -16,7 +16,7 @@
 7. Create an Active Directory service account for Identity Gateway.  
 8. Issue the following command on the Active Directory server assuming **demoig.server.frdpcloud.org** is the fully qualified domain name of the Identity Gateway Server and **igsa** is the service account samaccountname: 
       >setspn -s HTTP/demoig.server.frdpcloud.org igsa
-9. Follow the [Gateway Communication node](https://backstage.forgerock.com/docs/idcloud/latest/release-notes/rapid-channel/auth-node-gateway-comm.html) setup.
+9. Follow the [Gateway Communication node](https://backstage.forgerock.com/docs/auth-node-ref/latest/cloud/auth-node-gateway-setup.html) setup.
 10. Ensure the Client you will use to test the Kerberos Authentication has a valid Kerberos Ticket.
 11. Ensure the Client you will use to test the Kerberos Authentication has added the Identity Gateway FQDN to the sites in the following zone -
       >IE -> Internet Options -> Security -> Local Intranet -> Sites -> Advance
